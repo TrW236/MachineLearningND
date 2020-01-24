@@ -35,3 +35,7 @@
 |Promo2SinceYear|float64|describes the year when the store started participating in Promo2|
 |PromoInterval|object|describes the consecutive intervals Promo2 is started, naming the months the promotion is started|E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store|
 
+### `test.csv`
+* The columns are
+`Store`,`DayOfWeek`,`Date`,`Open`,`Promo`,`StateHoliday`,`SchoolHoliday`
+* The meanings of these columns are explained in above sections.
